@@ -70,3 +70,29 @@ let num=23
 console.log(num<0?"it it negative": "it is positive");//output:it is positive
 
 
+// Feature request
+
+let a=7
+let b=3
+
+console.log("Addition :",a+b); //output: 10
+console.log("Subtraction :",a-b);//output:4
+console.log("Multiplication :",a*b);//output:21
+console.log("Division :",a/b);//output:2.33
+console.log("Remainder :",a%b);//output:1
+
+console.log(a>b);//output:true
+console.log(a==b);//output:false
+console.log(a<b);//output:false
+
+// logical AND
+console.log((a < 5) && (a > 0));  // false
+
+// logical OR
+console.log((a > 2) || (a > 5));  // true
+
+// logical NOT
+console.log(!(b == 3));  // false
+
+n=b-a
+n>0 ? console.log(n,"is +ve") : console.log(n,"is -ve");  //output: -4 is -ve
