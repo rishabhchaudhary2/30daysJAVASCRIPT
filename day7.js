@@ -1,4 +1,5 @@
-
+// activity 1
+// task 1 create object
 let book = {
     name: "A story of yesterday",
     author: "Sergio Cobo",
@@ -88,6 +89,14 @@ console.table(library);
 
 
 // Task 6:
+console.log("Names of all books in the library:");
+for (let book in library) {
+    console.log(library[book].name);
+}
+// Names of all books in the library:
+// abc
+// def
+// ghi
 
 // Activtiy 4:
 
