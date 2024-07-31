@@ -1,0 +1,29 @@
+Ans 1 : 18
+Ans 2: true false 
+Ans3: 9 
+Ans 4:0 1 2
+Ans 5:5
+Ans 6:15
+Ans 7: ******
+Ans 8:14
+Ans 9:1
+Ans10:  undefined
+Ans 11:1 2
+Ans12:  10
+Ans 13:11
+Ans14: Hello
+Ans 15:Both b and c
+
+
+Ans16: false false
+Ans 17:undefined,2 
+
+
+Ans 18:456 
+
+
+Ans 19:[1,2,3] 
+
+
+
+Ans 20 newValue 
