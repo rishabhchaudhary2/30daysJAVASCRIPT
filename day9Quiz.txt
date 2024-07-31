@@ -14,7 +14,6 @@ Ans 13:11
 Ans14: Hello
 Ans 15:Both b and c
 
-
 Ans16: false false
 Ans 17:undefined,2 
 
