@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiny5&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="main-heading"> Day 10 -: Event Listners</h1>
+
+    <div class="container">
+        <ul>
+            <li class="list">Task 1 : Add a click event listener to a button that changes the text content of a
+                paragraph
+
+            </li>
+            <div id="task1">
+                <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur omnis officia dolore
+                    dolores accusantium quibusdam voluptatem minus consequatur asperiores possimus.</p>
+                <button id="btn1">
+                    Changes Text
+                </button>
+            </div>
+            <li class="list">
+                Task 2: Add a double click event listener to an image that toggles its visibility.
+                <div>
+                    <img src="cat2.jpeg" alt="" id="img1">
+                </div>
+            </li>
+            <li class="list">
+                Task 3: Add a mouseover event listener to an element that changes its background color
+
+                <div id="box" style="background-color: aqua; border: 4px solid ; border-radius: 16px; padding: 20px; ">
+                </div>
+            </li>
+            <li class="list">
+                Task 4: Add a mouseout event listener to an element that resets its background color.
+                mouseout event occurs when cursor moves away from that particular element
+            </li>
+            <li class="list">Task 5:Add a keydown event listener to an input field that logs the key
+                pressed to the console.
+                The keydown event is fired when a key is pressed.
+                <br>
+                <input type="text" id="input1" placeholder="type something...">
+                <h4 id="ans"></h4>
+
+            </li>
+            <li class="list"> Task 6: Add a keyup event listener to an input field that displays the current value in a
+                paragraph.
+                The keyup event is fired when a key is released.
+                Provides the updated input value after the keypress.
+                <br>
+                <input type="text" id="input2" placeholder="type something...">
+                <h4 id="ans2"></h4>
+            </li>
+            <li class="list"> Task7 : Add a submit event listener to a form that prevents the default
+                submission and logs the form data to the console.
+                <div id="form">
+                    <form id="myForm">
+                        <label for="q1">Are you a student of NIT KKR?</label>
+                        <input type="text" id="q1" name="q1" required>
+                        <br>
+                        <label for="q2">Enter your course name</label>
+                        <input type="text" id="q2" name="q2" required>
+                        <br>
+                        <label for="q2">Enter your branch name</label>
+                        <input type="text" id="q3" name="q3" required>
+                        <br>
+                        <label for="q2">Enter your year number.</label>
+                        <input type="number" id="q4" name="q4" required>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </li>
+
+            <li class="list"> Task 8: Add a change event listener to a select dropdown that displays
+                the selected value in a paragraph.
+                <div id="task8">
+                    <label for="dropdown">Choose an item:</label>
+                    <select id="dropdown">
+                        <option value="" selected disabled>Select an option</option>
+                        <option value="Pizza">Pizza</option>
+                        <option value="Burger">Burger</option>
+                        <option value="Pasta">Pasta</option>
+                        <option value="None">None</option>
+                    </select>
+                </div>
+                <p id="displayText"></p>
+            </li>
+
+            <li class="list"> Task 9:  Add a click event listener to a list that logs the text content
+          of the clicked list item using event delegation
+        <div id="sublist">
+            <ul>
+                <li>Physics</li>
+                <li>chemistry</li>
+                <li>Maths</li>
+                <li>English</li>
+            </ul>
+        </div>
+        </li>
+
+            <li class="list">Task 10: 
+                <div id="parent">
+                Add new buttons Dynamically.  <br>
+                </div>
+                <button id="child">Add Button</button>
+            </li>
+        </ul>
+    </div>
+    <script src="1.js"></script>
+</body>
+
+</html>

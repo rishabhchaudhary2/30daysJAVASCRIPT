@@ -1,0 +1,43 @@
+body{
+    background-color: #f0f0f0;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    
+}
+#main-heading{
+    text-align: center;
+}
+
+.list{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+#btn1{
+    color: white;
+    background-color: rgb(160, 72, 72);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+#input1{
+    margin: 5px;
+    padding: 12px;
+    width: 20%;
+    border-radius: 10px;
+}
+#input2{
+    margin: 5px;
+    padding: 12px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #c5e663;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+}
